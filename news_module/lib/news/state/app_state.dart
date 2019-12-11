@@ -11,7 +11,6 @@ class NewsContainer extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(),
       body: Center(
         child: FutureBuilder<NewsModel>(
             future: fetchNews(http.Client()),
