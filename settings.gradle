@@ -1,0 +1,10 @@
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  'news_module\\.android\\include_flutter.groovy'
+))
+rootProject.name='NativeHibridApp'
+
+include ':news_module'
+

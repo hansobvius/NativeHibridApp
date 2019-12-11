@@ -1,0 +1,33 @@
+name: news_module
+description: A new Flutter module.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  #HTTP Dependency
+  http: ^0.12.0+2
+
+  #JSON annotation
+  json_annotation: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.news_module
+    iosBundleIdentifier: com.example.newsModule
